@@ -1,19 +1,19 @@
 {
   "private": true,
-  "name": "profile-app-remix",
-  "description": "This will be my professional profile app made in remix, my goal in this app is to perform some tests on this very popular framework.",
+  "name": "joke-app-remix",
+  "description": "This is a joke application that serves as an example to explore the functionality of the remix framework. This application follows the recommendations of the remix.run documentation",
   "license": "MIT",
-  "author": "Ederson Pravtz <ederson.ufrgs@gmail.com> (https://github.com/pravtz)",
   "bugs": {
-    "url": "https://github.com/pravtz/profile-app-remix.git/issues"
+    "url": "https://github.com/pravtz/joke-app-remix.git/issues"
   },
   "keywords": [
     "pravtz",
-    "my profile remix"
+    "remix",
+    "joke remix"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pravtz/profile-app-remix.git"
+    "url": "git+https://github.com/pravtz/joke-app-remix.git"
   },
   "prisma": {
     "seed": "node --require esbuild-register prisma/seed.ts"
