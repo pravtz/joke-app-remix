@@ -17,6 +17,13 @@ export const loader: LoaderFunction = async () => {
   const data: LoaderData = { randomJoke };
   return data;
 };
+export function ErrorBoundary() {
+  return (
+    <div className="error-container">
+      I did a whoopsies.
+    </div>
+  );
+}
 
 export default function JokesIndexRoute() {
   const data = useLoaderData<LoaderData>();

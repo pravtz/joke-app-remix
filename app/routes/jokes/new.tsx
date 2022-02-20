@@ -57,6 +57,13 @@ export const action: ActionFunction = async ({request}) => {
   const joke = await db.joke.create({ data: { ...fields, jokesterId: userId } });
   return redirect(`/jokes/${joke.id}`);
 };
+export function ErrorBoundary() {
+  return (
+    <div className="error-container">
+      Something unexpected went wrong. Sorry about that.
+    </div>
+  );
+}
 
 export default function NewJokeRoute() {
   const actionData = useActionData<ActionData>();
