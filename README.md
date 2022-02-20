@@ -28,6 +28,10 @@ This is a joke application that serves as an example to explore the functionalit
     ```bash
         npx prisma db push
     ```
+- if you want to populate the bank with data fake use | username = kody and password = twixrox
+    ```bash
+        npx prisma db seed
+    ```
 
 - For development use
 
